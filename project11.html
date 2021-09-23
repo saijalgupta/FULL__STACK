@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous" >    
+    <style>
+      .main-container
+      {
+        height: 100vh;
+      }
+      .footer1
+      {
+        background-color: grey;
+        height: 100vh;
+      }
+      .footer
+      {
+        
+        height: 50vh;
+        display: inline-flex;
+        width: 100%;
+        
+      }
+      .f1
+      {
+       
+        width: 800px;
+        height: 200px;
+        margin-right: 150px;
+      }
+      .f2 
+      {
+        margin-right: 30px;
+        text-align: left;
+        margin-right: 50px;
+        margin-left: -120px;
+        height: 200px;
+      }
+      .f2 ul li 
+      {
+        
+        list-style: none;
+        padding: 5px;
+        margin-left: -40px;
+      }
+      .f2 ul li a
+      {
+        color: white;
+      }
+      .f2 ul li a:hover
+      {
+        color: tomato;
+      }
+      .f3
+      {
+        margin-right: 30px;
+        width: 250px;
+        text-align: left;
+      
+        height: 200px;
+      }
+      .f3 ul li
+      {
+        list-style: none;
+        padding: 5px;
+        margin-left: -40px;
+      }
+      .f3 ul li a
+      {
+        color: white;
+      }
+      .f3 ul li a:hover
+      {
+        color: tomato;
+      }
+      .f4
+      {
+       
+        width: 300px;
+        height: 200px;
+        margin-left: -80px;
+      }
+      .f4 ul li
+      {
+
+        list-style: none;
+        padding: 5px;
+      }
+      .f4 ul li a
+      {
+        color: white;
+      }
+      .f4 ul li a:hover
+      {
+        color: orange;
+      }
+      
+      
+      .footer2
+      { 
+        margin-top: -30px;
+        border: 1px solid white;
+        width: 100%;
+        height: 20vh;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      input[type="button"]
+      {
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: red;
+        margin-left: 20px;
+      }
+      
+    .footer3 {
+      display: flex;
+      justify-content: center;
+      padding: 20px 10px;
+    }
+     .footer3 ul {
+     list-style: none;
+     }
+     .footer3 ul li {
+     display: inline-block;
+     width: 20px;
+     height: 30px;
+     padding: 20px;
+     background-color: #424242;
+     border-radius: 50%;
+     margin-right: 20px;
+    }
+    .footer3 ul li i {
+     color: white;
+     font-size: 24px;
+     line-height: 30px;
+     text-align: center;
+}
+.footer3 ul li:nth-child(1):hover {
+  background-color: #3b5999;
+}
+.footer3 ul li:nth-child(2):hover {
+  background-color: #55acee;
+}
+.footer3 ul li:nth-child(3):hover {
+  background-color: #dd4b39;
+}
+.footer3 ul li:nth-child(4):hover {
+  background-color: #0077b5;
+}
+.footer3 ul li:nth-child(5):hover {
+  background-color: #ea4c89;
+}
+.footer4 {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 30px;
+  }
+  .footer4 p {
+    color: grey;
+    position: relative;
+  }
+
+  .footer4 p::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transition: all 0.3s;
+  }
+  .footer4 p:hover::after {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .main-container
+      {
+        
+        height: 100vh;
+      }
+      .footer1
+      {
+        background-color: grey;
+        height: 100vh;
+      }
+      .footer
+      {
+        
+        height: 50vh;
+        display: inline-flex;
+        width: 100%;
+        
+      }
+      .f1
+      {
+       
+        width: 800px;
+        height: 200px;
+        margin-right: 150px;
+      }
+      .f2 
+      {
+        margin-right: 30px;
+        text-align: left;
+        margin-right: 50px;
+        margin-left: -120px;
+        height: 200px;
+      }
+      .f2 ul li 
+      {
+        
+        list-style: none;
+        padding: 5px;
+        margin-left: -40px;
+      }
+      .f2 ul li a
+      {
+        color: white;
+      }
+      .f2 ul li a:hover
+      {
+        color: tomato;
+      }
+      .f3
+      {
+        margin-right: 30px;
+        width: 250px;
+        text-align: left;
+      
+        height: 200px;
+      }
+      .f3 ul li
+      {
+        list-style: none;
+        padding: 5px;
+        margin-left: -40px;
+      }
+      .f3 ul li a
+      {
+        color: white;
+      }
+      .f3 ul li a:hover
+      {
+        color: tomato;
+      }
+      .f4
+      {
+       
+        width: 300px;
+        height: 200px;
+        margin-left: -80px;
+      }
+      .f4 ul li
+      {
+
+        list-style: none;
+        padding: 5px;
+      }
+      .f4 ul li a
+      {
+        color: white;
+      }
+      .f4 ul li a:hover
+      {
+        color: orange;
+      }
+      
+      
+      .footer2
+      { 
+        margin-top: -30px;
+        border: 1px solid white;
+        width: 100%;
+        height: 20vh;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      input[type="button"]
+      {
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: red;
+        margin-left: 20px;
+      }
+      
+    .footer3 {
+      display: flex;
+      justify-content: center;
+      padding: 20px 10px;
+    }
+     .footer3 ul {
+     list-style: none;
+     }
+     .footer3 ul li {
+     display: inline-block;
+     width: 20px;
+     height: 30px;
+     padding: 20px;
+     background-color: #424242;
+     border-radius: 50%;
+     margin-right: 20px;
+    }
+    .footer3 ul li i {
+     color: white;
+     font-size: 24px;
+     line-height: 30px;
+     text-align: center;
+}
+.footer3 ul li:nth-child(1):hover {
+  background-color: #3b5999;
+}
+.footer3 ul li:nth-child(2):hover {
+  background-color: #55acee;
+}
+.footer3 ul li:nth-child(3):hover {
+  background-color: #dd4b39;
+}
+.footer3 ul li:nth-child(4):hover {
+  background-color: #0077b5;
+}
+.footer3 ul li:nth-child(5):hover {
+  background-color: #ea4c89;
+}
+.footer4 {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 30px;
+  }
+  .footer4 p {
+    color: grey;
+    position: relative;
+  }
+
+  .footer4 p::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transition: all 0.3s;
+  }
+  .footer4 p:hover::after {
+    width: 100%;
+  }
+}
+
+</style>
+ </head>
+ <body>
+   <div class="main-container">
+       <h1 style="text-align: center;">Content Area</h1>
+     <div class="footer1">
+       <div class="footer">
+      <div class="f1">
+        <h2 style="color: white;">ABOUT</h2>
+        <p style="text-align: justify; margin: 5px; color: white;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi ab rerum illum inventore cum veritatis nisi, maiores quae suscipit recusandae non saepe aliquam! Repellendus molestiae repudiandae quo exercitationem voluptatum dolorem quibusdam sint dolores porro repellat in ipsam harum a minus maxime molestias unde cupiditate nisi omnis, quae at reprehenderit minima nemo. Deserunt repellat accusantium neque dignissimos consectetur ipsum deleniti quos labore earum quidem, enim suscipit distinctio adipisci? Nihil quibusdam qui dolore recusandae quidem placeat incidunt et doloribus repellat omnis quas unde, repudiandae saepe minima, veritatis sed perspiciatis, ea facilis nesciunt? At deserunt provident ipsa nisi mollitia libero eum cum!
+        </p>
+      </div>
+      <div class="f2">
+      <h2 style="color: white;">CATEGORIES</h2>
+      <ul style="color: white;">
+        <li><a href="#">C</a></li>
+        <li><a href="#">UI Desing</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">Android</a></li>
+        <li><a href="#">Hybrid Apps</a></li>
+      </ul>
+      </div>
+      <div class="f3">
+        <h2 style="color: white;">QUICK LINKS</h2>
+        <ul style="color: white;">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Contribute</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="f4">
+        <h2 style="color: white;margin-left: 40px;">CONTACT US</h2>
+        <ul style="color: white;">
+          <li><i class="fa fa-home"></i> SCO-75, Chandigarh,India</li>
+          <li><i class="fa fa-envelope"></i> Betalabsindia@gmail.com</li>
+          <li><i class="fa fa-phone-square"></i> Mobile: 9729280731</li>
+          <li><i class="fa fa-facebook-official"></i><a href="#">betalabsindia</a></li>
+       </ul>
+      </div>
+    </div>
+    <div class="footer2">
+      <h1 style="text-align: center; color: white;align-items: center;">Register for Free</h1>
+      <input type="button" value="signup!" />
+    </div>
+    <div class="footer3">          
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-google"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer4">
+        <p>
+          Copyright © 2020 All Rights Reserved by
+          <a href="https://www.beta-labs.in">Beta-Labs.</a>
+        </p>
+      </div>
+     </div>
+   </div>
+ </body>
